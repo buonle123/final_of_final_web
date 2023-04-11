@@ -1,0 +1,498 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.container-fluid {
+    background-color: #1c1717;
+}
+
+.nav-fix {
+    position: fixed;
+    z-index: 4;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #1c1717;
+    box-shadow: 0 0 20px #6b1c4c;
+}
+
+.nav-item-go li a {
+    font-size: 1vw;
+}
+
+.nav-item {
+    font-size: 1vw;
+}
+
+nav {
+    color: #6b1c4c;
+}
+
+.logo img {
+    width: 100%;
+    height: 3vw;
+}
+
+.content_gt {
+    background-color: #1c1717;
+}
+
+nav {
+    margin: 0 4em;
+}
+
+.content_gt {
+    margin: 3vw;
+    text-transform: uppercase;
+}
+
+.nav-item>a {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #e76ab5 !important;
+}
+
+.gioithieu h1 {
+    background: linear-gradient(90deg, #6B1C4C, #F28F01 85%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 4vw;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.gioithieu {
+    margin-bottom: 1px;
+
+}
+
+.text_vitridialy p,
+.text_dulich p {
+    margin: 2px 0;
+    color: rgb(183, 167, 167);
+    word-spacing: 0.2vw;
+    padding: 3px 0;
+    text-transform: none;
+    font-size: 2vw;
+}
+
+.text_vitridialy span,
+.text_dulich span {
+    text-transform: NONE;
+    color: white;
+    font-size: 3vw;
+}
+
+.bg-im-2 {
+    padding-top: 80%;
+    background-image: url(https://statics.vinpearl.com/NH%C3%80-TH%E1%BB%9C-%C4%90%E1%BB%A8C-B%C3%80-1_1661248061.jpg);
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 25px;
+    margin: 0.7rem;
+}
+
+.bg-im {
+    padding-top: 80%;
+    background-image: url(https://vtv1.mediacdn.vn/2023/2/14/coverartboard-1-16763466411681794636618.jpg);
+    background-size: cover;
+    object-fit: cover;
+    margin: 0.7rem;
+    border-radius: 25px;
+}
+
+.bg-fixed {
+    background-attachment: fixed;
+    padding-top: 50%;
+    background-image: url(https://cdn.getyourguide.com/img/location/58d3f96892f56.jpeg/99.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.bg-fixed-frame {
+    position: relative;
+
+}
+
+.text_posi {
+    height: 100%;
+    width: 40%;
+    background-color: #1c1717;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    right: 15%;
+
+}
+
+.pd-inPosi {
+    display: flex;
+    flex-direction: column;
+}
+
+.pd-inPosi b {
+    color: white;
+    font-size: 1.5vw;
+    margin-right: 10px;
+}
+
+.text_posi span {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 2.5vw;
+}
+
+.pd-inPosi {
+    padding: 5%;
+}
+
+.pon {
+    color: rgb(133, 128, 128);
+    font-size: 1.25vw;
+}
+
+.pd-inPosi p {
+    margin: 3px 0;
+    display: inline-flex;
+
+}
+
+.bg-map {
+    /* padding-top 100% chiều ngang của thẻ */
+    margin: 20px 0;
+    padding-top: 150%;
+    background-image: url(https://thongtincanho.vn/wp-content/uploads/2021/09/ban-do-vi-tri-viet-nam-scaled.jpg);
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.grid-album {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+        "h1 h2 h3 h4"
+        "h5 h6 h7 h8";
+    ;
+    grid-gap: 10px;
+}
+
+.g-1 {
+    grid-area: h1;
+}
+
+.g-2 {
+    grid-area: h2;
+}
+
+.g-3 {
+    grid-area: h3;
+}
+
+.g-4 {
+    grid-area: h4;
+}
+
+.g-5 {
+    grid-area: h5;
+}
+
+.g-6 {
+    grid-area: h6;
+}
+
+.g-7 {
+    grid-area: h7;
+}
+
+.g-8 {
+    grid-area: h8;
+}
+
+.grid-album img {
+    width: 100%;
+    height: 30vw;
+    object-fit: cover;
+    background-size: cover;
+    border-radius: 5vw;
+}
+
+.text-nomal {
+    color: white;
+    font-size: 1.5rem;
+    padding: 2em 0;
+}
+
+.r2 {
+    height: 500px;
+}
+
+@media screen and (max-width:964px) {
+    .grid-album {
+
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-areas:
+            "h1 h2"
+            "h3 h4"
+            "h5 h6"
+            "h7 h8";
+        ;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .grid-album {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.text span {
+    color: white;
+    font-size: 4vw;
+
+}
+
+.c-left {
+    padding: 1em;
+}
+
+.c-right {
+    padding: 1em;
+}
+
+.boder-right {
+    border-left: 1px white solid;
+}
+
+.img-boder img {
+    height: 30vw;
+    width: 30vw;
+    border-radius: 15vw;
+    margin: 5vh 0;
+}
+
+.text>p {
+    font-size: 2vw;
+    color: rgb(202, 170, 170);
+}
+
+.tilte_diadiem {
+    padding: 50px 0;
+}
+
+.tilte_diadiem h1 {
+    color: #F28F01;
+    font-size: 6vw;
+    font-weight: 800;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form input {
+    background-color: #1c1717;
+    padding: 2vw;
+    width: 100%;
+    margin: 5px;
+}
+
+.form .loinhan {
+    padding: 8vw;
+    padding-top: 2vw;
+    padding-left: 2vw;
+}
+
+.form .btn-gui {
+    margin: 2vw;
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+    background-color: #6B1C4C;
+    color: white;
+    font-size: 1.5vw;
+    text-transform:
+        uppercase;
+}
+
+.bg-model {
+    padding: 50%;
+    background-image: url(http://mauweb.monamedia.net/asianacapella/wp-content/uploads/2019/02/contact-22.png);
+    background-size: cover;
+    object-fit: cover;
+}
+
+.hotline span {
+    font-size: 2.5vw;
+    text-transform: none;
+    color: white;
+}
+
+.text-chay p {
+    padding: 10px 0;
+    text-transform: none;
+    font-size: 2vw;
+    color: rgb(173, 141, 141);
+}
+
+.hotline-boder {
+    color: red !important;
+    margin: 0 15px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: 600;
+    border: 1px red solid;
+}
+
+.hotline {
+    margin: 15px 0;
+}
+
+.different-bg-color {
+    background-color: #251b1b !important;
+}
+
+.ft {
+    background-image: url(http://mauweb.monamedia.net/asianacapella/wp-content/uploads/2019/02/city-buildings-png-mid-autumn-festival-illustration-clipart-transparent-city-png-5746_1513.png);
+    background-size: cover;
+    object-fit: cover;
+    opacity: 0.8;
+}
+
+.footer_END {
+    display: flex;
+    flex-direction: column;
+}
+
+.f-1>div,
+b {
+    color: white;
+}
+
+.f-2 {
+    color: white;
+}
+
+.f-3 {
+    color: white;
+}
+
+.f-4 {
+    color: white;
+}
+
+.end-footer {
+    width: 100%;
+    color: white;
+    line-height: 50px;
+    width: 100%;
+    height: 50px;
+    background-color: #080404;
+}
+
+.btn-top {
+    color: white;
+    position: fixed;
+    padding: 1.5vw 2vw;
+    background-color: #6B1C4C;
+    bottom: 2vw;
+    right: 2vw;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+.grid-sinhthai {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 2fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas:
+        "h1 h2 h2 h2 h3"
+        "h1 h2 h2 h2 h3"
+        "h1 h2 h2 h2 h3"
+        "h1 h4 h5 h6 h3";
+    grid-gap: 1vw;
+}
+
+.im {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.im-1 {
+    grid-area: h1;
+}
+
+.im-2 {
+    grid-area: h2;
+}
+
+.im-3 {
+    grid-area: h3;
+}
+
+.im-4 {
+    grid-area: h4;
+}
+
+.im-5 {
+    grid-area: h5;
+}
+
+.im-6 {
+    grid-area: h6;
+}
+
+.title-sinh {
+    color: white;
+    font-size: 2.5vw;
+}
+
+.title {
+    margin-bottom: 1vw;
+}
+
+.title span {
+    font-size: 1.5vw;
+    font-weight: 600;
+
+}
+
+.footer_END b {
+    padding: 0.5vw 0;
+    font-size: 1.4vw;
+}
+
+.f-3>div {
+    font-size: 1.4vw;
+}
+
+.f-4>div {
+    font-size: 1.4vw;
+}
+
+.icon i {
+    padding: 0 0.5em;
+}
+
+.aiss {}
+
+.aiss a {
+    display: inline;
+    font-size: 1.5vw;
+    text-decoration: none;
+    color: white;
+    text-transform: none;
+}
+
+.copy {
+    font-size: 2vw;
+}
